@@ -12,15 +12,15 @@ public class Page implements PageInterface {
     int C = 0;
     final int RR = 50;
     final int CC = 4;
-    int M;
-    int P[];
+    int MARGEN;
+    int POSITION[];
 
     @Override
-    public void printPage(int M, int P[]) {
-        this.M = M;
-        this.P = P;
+    public void printPage(int MARGEN, int POSITION[]) {
+        this.MARGEN = MARGEN;
+        this.POSITION = POSITION;
 
-        while (PAGEOFFSET <= this.M) {
+        while (PAGEOFFSET <= this.MARGEN) {
 
             outPrint();
             rowOffSet();
@@ -33,7 +33,7 @@ public class Page implements PageInterface {
     
     public void outPrint() {
         System.out.print("The First ");
-        System.out.print(Integer.toString(M));
+        System.out.print(Integer.toString(MARGEN));
         System.out.print(" Prime Numbers === Page ");
         System.out.print(Integer.toString(PAGENUMBER));
         System.out.println("\n");
@@ -47,8 +47,8 @@ public class Page implements PageInterface {
 
     public void endRow() {
         for (C = 0; C <= CC - 1; C++)
-            if (ROWOFFSET + C * RR <= M)
-                System.out.printf("%10d", P[ROWOFFSET + C * RR]);
+            if (ROWOFFSET + C * RR <= MARGEN)
+                System.out.printf("%10d", POSITION[ROWOFFSET + C * RR]);
         System.out.println();
     }
 }

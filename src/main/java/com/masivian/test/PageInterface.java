@@ -6,6 +6,6 @@ package com.masivian.test;
  */
 public interface PageInterface {
 
-    public void printPage(int M, int P[]);
+    public void printPage(int MARGEN, int POSITION[]);
 
 }

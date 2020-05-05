@@ -15,8 +15,10 @@ Prueba técnica para masivian
     cualquier objeto que implemente la interfaz.
 5. Definir las variables como propiedades de la clase a la que correspondan, y asignar
     valores por defecto en su declaración.
-6. Los archivos creados fueron PrinterRefactor.java, Page.java, PageInterface.java y
-   log_run.txt (Log del programa ejecutado)
+6. Los archivos creados fueron PrinterRefactor.java, Page.java, PageInterface.java, 
+    Margin.java, Dimension.java, JPrime.java, Mult.java, log_run.txt 
+    (Log del programa ejecutado).
+7. Redefinir nombre de variables para mayor entendimiento de su funcionalidad.
 
 Elaborado por: Ing. Pedag. Henry Giovanny Gonzalez Waltero
 04/05/2020

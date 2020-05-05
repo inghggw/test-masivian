@@ -1,4 +1,4 @@
-cd /home/inghggw/NetBeansProjects/test; JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64 /snap/netbeans/24/netbeans/java/maven/bin/mvn "-Dexec.args=-classpath %classpath com.masivian.test.PrinterRefactor" -Dexec.executable=/usr/lib/jvm/java-11-openjdk-amd64/bin/java org.codehaus.mojo:exec-maven-plugin:1.5.0:exec
+cd /home/inghggw/Apps/test-masivian; JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64 /snap/netbeans/24/netbeans/java/maven/bin/mvn "-Dexec.args=-classpath %classpath com.masivian.test.PrinterRefactor" -Dexec.executable=/usr/lib/jvm/java-11-openjdk-amd64/bin/java org.codehaus.mojo:exec-maven-plugin:1.5.0:exec
 Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
 Scanning for projects...
                                                                         
@@ -275,8 +275,7 @@ The First 1000 Prime Numbers === Page 5
 ------------------------------------------------------------------------
 BUILD SUCCESS
 ------------------------------------------------------------------------
-Total time: 0.766 s
-Finished at: 2020-05-04T21:31:47-05:00
+Total time: 0.767 s
+Finished at: 2020-05-04T22:52:22-05:00
 Final Memory: 7M/37M
 ------------------------------------------------------------------------
-
